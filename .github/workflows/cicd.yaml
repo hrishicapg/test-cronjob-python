@@ -32,5 +32,6 @@ jobs:
           docker run -it --name container1  -d test-cronjob
 
       - name: check logs
+        run: |
           docker exec -i container1 bash
           cat fuck.txt
