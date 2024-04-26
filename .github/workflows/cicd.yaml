@@ -34,4 +34,4 @@ jobs:
       - name: check logs
         run: |
           docker exec -i container1 bash
-          cat fuck.txt
+          # cat fuck.txt
