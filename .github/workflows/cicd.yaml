@@ -27,4 +27,4 @@ jobs:
       - name: build image
         run: |
           docker build -t test-cronjob .
-          docker run test-cronjob
+          docker run -it -n container1 test-cronjob sh
